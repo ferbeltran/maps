@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="GPS.Views.MainPage"
+                 xmlns:local="clr-namespace:GPS.Controls"
+                 Title="{Binding Title}">
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="Add Pin" Command="{Binding PinAndPointLocationCommand}"/>
+            <ToolbarItem Text="Finish" Command="{Binding FinishAreaCommand}"/>
+    </ContentPage.ToolbarItems>
+
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <local:BindableMap HorizontalOptions="FillAndExpand"
+                               VerticalOptions="FillAndExpand"
+                               MapPosition="{Binding CurrentPosition}"
+                               ShapeCoordinates="{Binding Points}"
+                               MapPins="{Binding Pins}"/>
+
+            <!--<Label Text="{Binding Distance}" 
+                   FontSize="Medium"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="End"/>-->
+
+            <!--<Button Text="Track!"
+                 Command="{Binding TrackLocationCommand}"/>
+                 
+                 <Label Text="{Binding Location}"/>-->
+        </StackLayout>
+
+    </ContentPage>

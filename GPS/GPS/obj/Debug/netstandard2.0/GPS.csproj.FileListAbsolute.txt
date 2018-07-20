@@ -1,0 +1,12 @@
+C:\Xamarin\GeoLocator\GPS\GPS\bin\Debug\netstandard2.0\GPS.deps.json
+C:\Xamarin\GeoLocator\GPS\GPS\bin\Debug\netstandard2.0\GPS.dll
+C:\Xamarin\GeoLocator\GPS\GPS\bin\Debug\netstandard2.0\GPS.pdb
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\GPS.csproj.CoreCompileInputs.cache
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\GPS.AssemblyInfoInputs.cache
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\GPS.AssemblyInfo.cs
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\GPS.dll
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\GPS.pdb
+C:\Xamarin\GeoLocator\GPS\GPS\obj\Debug\netstandard2.0\GPS.csprojAssemblyReference.cache
